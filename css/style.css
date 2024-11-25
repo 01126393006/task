@@ -1,0 +1,935 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headear{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(141, 173, 247 , 0.8);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.headear_list{
+    float: right;
+    list-style: none;
+}
+.headear_list   li {
+    display: inline-block;
+    margin: 20px  25px;
+    font-size: 20px;
+}
+.headear_list   li  a{
+    text-decoration: none;
+    color: #fff;
+ }
+
+.headear_icon{
+    float: left;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.headear_search{
+ width: 250px;
+ height: 30px;
+ background-color: #ffffff;
+ border-radius: 25px;
+ float: left;
+ margin: 15px 25px;
+}
+.headear_icon2{
+    color: black;
+    margin: 5px 15px;
+}
+.home{
+    z-index: 500;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/5d8ae10a863f59590b29a4c2661e5bf8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.home_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.home_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 60%;
+    text-align: center;
+}
+.home_title{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home_p{
+    color: #ece5e5aa;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+.home_btn{
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+.home_btn2{
+    background-color: rgba(105, 144, 234, 0.8);
+    color: #fff;
+}
+.home_btn:hover{
+    opacity: 0.5;
+}
+.title1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: rgba(65, 118, 239, 0.8);
+}
+.sheet1_line{
+    width: 150px;
+    height: 5px;
+    background-color:rgba(91, 140, 238, 0.8);
+    margin: auto;
+    margin-top: 20px;
+}
+.sheet1_div{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(91, 140, 238);
+    border-radius: 15px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.sheet1_title{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.sheet1_icon{
+    color: rgb(96, 153, 210);
+}
+.sheet1_p{
+    margin: 20px 60px;
+    text-transform: capitalize;
+    color:  darkgrey;
+}
+
+.part2_div{
+    width: 300px;
+    height: 200px;
+    border: 2px solid  rgb(91, 140, 238);
+    border-radius: 15px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.part2_title{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.part2_p{
+    margin: 20px 60px;
+    text-transform: capitalize;
+    color: darkgrey;
+}
+.home_contactimg{
+    width: 800px;
+    height: 500px;
+    border: none;
+    margin-top: 120px;
+    margin-left: 50px;
+    float: left;
+    line-height: 50px;
+}
+.img_title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(175, 116, 43);
+
+}
+.img_line{
+    width: 150px;
+    height: 5px;
+   margin-left: 80px;
+   margin-top: 10px;
+   margin-bottom: 50px;
+    background-color:   rgb(175, 116, 43);
+}
+.img_p{
+    color: 040cff;
+    font-size: 20px;
+}
+.img_titlep{
+    color: rgb(151, 146, 146);
+}
+.home_img{
+    width: 400px;
+    height: 500px;
+    border: none;
+    float: right;
+    margin-top: 120px;
+    margin-right: 80px;
+   
+}
+.list_img{
+    text-align: center;
+    margin-right: 20px;
+}
+.list_img   li{
+    display: inline-block;
+    list-style: none;
+    background-color:  rgb(175, 116, 43);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.list_img   .List_li2{
+    background-color: #040cff;
+}
+.list_img  li:hover{
+    background-color: #040cff;
+}
+.sheet4_title{
+    margin-top: 1200px;
+    text-transform: uppercase;
+    font-size: 50px;
+   text-align: center;
+   color: rgb(65, 118, 239 );
+    
+}
+.sheet4_line{
+    width: 150px;
+    height:5px ;
+    background-color:rgba(91, 140, 238, 0.8);
+    margin: auto;
+    margin-top: 8px;
+}
+.contact_types{
+     margin-top: 80px;
+    width: 350px;
+    height:400px ;
+    border: 1px solid rgb(66, 126, 246) ;
+    float: left;
+    margin-left: 110px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.contact_mercury{
+    background-image: url(../img/Mercury_in_color_-_Prockter07-edit1.jpg);
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.7);
+}
+.circle_types{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid #fff;
+    color:#fff;
+    font-size: 25px;
+}
+.btn_types{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border: 1px solid rgb(91, 140, 238);
+    text-transform: capitalize;
+}
+.btn_types:hover{
+    width:200px ;
+    height: 70px;
+    font-size: 25px;
+    background-color: #040cff;
+    color: rgb(255, 255, 255);
+}
+.title_types{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.contact_mars{
+    background-image: url(../img/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png);
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.7);
+}
+.contact_earth{
+    background-image: url(../img/images.jpg);
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.7);
+}
+.people{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/pexels-photo-10525022.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 700px;
+}
+.people_Yuri{
+    width: 500px;
+    height: 300px;
+    float: left;
+    color: rgb(65, 118, 239);
+    margin: 120px 100px;
+   
+}
+.people_galilei{
+    width: 500px;
+    height: 300px;
+    float: left;
+    color: rgb(25, 87, 230);
+    margin: 120px 100px;
+}
+.circle_Yuri{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/20220310182825772.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+}
+.title_Yuri{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-transform: uppercase;   
+    color: rgba(65, 118, 239,);  
+}
+.p_Yuri{
+   margin-top: 10px;
+   margin-left:  30px;
+   color: wheat;
+   text-transform: capitalize;
+}
+.parg_Yuri{
+    margin: 30px 20px;
+    color:rgb(131, 123, 123) ; 
+    text-transform: capitalize;
+    font-size: 25px;
+  
+}
+.circle_galilei{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../img/Galileo.arp.300pix.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    float: left;
+}
+.title_galilei{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px; 
+    text-transform: uppercase;
+}
+.p_galilei{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: wheat;
+    text-transform: capitalize;
+    
+}
+.parg_galilei{
+    margin: 40px 20px;
+    color:rgb(59, 55, 55) ; 
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+.sheet6{
+    width: 100%;
+    height: 100vh;
+    background-color: #e0f3ff;
+}
+.title_planets{
+   margin-top: 150px;
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 25px;
+   color: rgb(65, 118, 239 );
+ 
+}
+.line_planets{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    background-color:  rgba(91, 140, 238, 0.8);
+    margin-top: 20px;
+}
+.Venus{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 40px 50px;
+    border: 1px solid rgb(5, 80, 231);
+    background-size: cover;
+}
+.Jupiter{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 40px 50px;
+    border: 1px solid rgb(5, 80, 231);
+    background-size: cover;
+}
+.Saturn{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 40px 50px;
+    border: 1px solid rgb(5, 80, 231);
+    background-size: cover;
+}
+.Venus{
+    position: relative;
+}
+.Venus_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+.title_venus{
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.p_venus{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(188, 184, 184);
+}
+.icon_venus{
+    background-color: #fff;
+    width: 40px;
+    height: 35px;
+    color: rgb(52, 142, 232);
+    font-size: 25px;
+    margin: 15px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.Venus:hover .Venus_overlay{
+    visibility: visible;
+}
+.Jupiter{
+    position: relative;
+}
+.Jupiter_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+.title_Jupiter{
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.p_Jupiter{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(188, 184, 184);
+}
+.icon_Jupiter{
+    background-color: #fff;
+    width: 40px;
+    height: 35px;
+    color: rgb(52, 142, 232);
+    font-size: 25px;
+    margin: 15px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.Jupiter:hover .Jupiter_overlay{
+    visibility: visible;
+}
+.Saturn{
+    position: relative;
+}
+.Saturn_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+.title_Saturn{
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.p_Saturn{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(188, 184, 184);
+}
+.icon_Saturn{
+    background-color: #fff;
+    width: 40px;
+    height: 35px;
+    color: rgb(52, 142, 232);
+    font-size: 25px;
+    margin: 15px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.Saturn:hover .Saturn_overlay{
+    visibility: visible;
+}
+.Uranus{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 40px 50px;
+    border: 1px solid black;
+    background-size: cover;
+}
+.Neptune{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 40px 50px;
+    border: 1px solid black;
+    background-size: cover;
+}
+.Pluto{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 40px 50px;
+    border: 1px solid black;
+    background-size: cover;
+}
+.title_customers{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(65, 118, 239);
+}
+.d1 , .d2 , .d3{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    border: 1px solid rgb(148, 185, 225);
+    float: left;
+    margin: 100px 50px;
+    text-align: center;
+}
+.icon_customers{
+    background-color: #fff;
+    width: 40px;
+    height: 35px;
+    color: rgb(52, 142, 232);
+    font-size: 25px;
+    margin: 15px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.address_customers{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(8, 80, 235);
+    margin-top: 20px;
+}
+.prag_customers{
+    margin-top: 20px;
+    text-transform: lowercase;
+    color: rgb(88, 85, 85);
+}
+.p_customers{
+    margin-top: 25px;
+    font-size: 30px;
+    color: rgb(24, 121, 232);
+}
+.icons{
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/rath.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 600px;
+    text-align: center;
+}
+.icon1{
+    float: left;
+    color: #fff;
+    margin: 200px  100px;
+}
+.icon_sheet8{
+    font-size: 50px;
+    color: #001aff;
+}
+.p_icon{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.scientist_title{
+    margin-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color:  rgb(65, 118, 239) ;
+}
+.scientist_line{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    background-color: rgba( 91, 140, 238 ,0.8) ;
+    margin-top: 10px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.scientist_item{
+    float: left;
+    background-color: rgba(183, 203, 241, 0.8);
+    width: 30%;
+    padding: 14px 18px;
+    text-align: center;
+
+    position: relative;
+}
+.middle{
+    margin: 0px 5%;
+}
+.scientist_img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.scientist_img  img{
+  width: 100%;
+}
+.scientist_overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.3);
+    visibility: hidden;
+}
+.scientist_overlay  a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color: #fff;
+    font-size: 22px;
+    margin-left: auto;
+}
+.scientist_overlay  a  i{
+    line-height: 40px;
+}
+.scientist_info_title{
+    text-transform: uppercase;
+    padding: 12px 0px;
+    color: #484444;
+}
+.scientist_info_sp1{
+    text-transform: capitalize;
+    color: rgb(66, 79, 143);
+}
+.scientist_item:hover  .scientist_info_title{
+    color: blue;
+}
+.scientist_item:hover  .scientist_info_sp1{
+    color: #fff;
+}
+.scientist_item:hover  .scientist_overlay{
+    visibility: visible;
+}
+.scientist_item:after{
+    content:"";
+    position: absolute;
+    width:100% ;
+    height: 0;
+    top: 0;
+    right: 0;
+    transition: 1s;
+    background-color: rgba(108, 181, 233, 0.5);
+}
+.scientist_item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.news{
+    margin-top: 550px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(65, 118, 239);
+}
+.news_line{
+    width: 120px;
+    height: 5px;
+    margin: auto;
+    background-color:  rgba(91, 140, 238 , 0.8);
+    margin-top: 10px;
+}
+.news_img{
+    float: left;
+    margin-top: 40px;
+    width: 350px;
+    padding: 18px 18px;
+    text-align: center;
+    border: 1px solid rgb(91, 140, 238);
+    border-radius: 25px;
+    margin-left: 120px;
+}
+.img_news{
+    border-radius: 20px;
+}
+.news_info{
+    margin-top: 20px;
+}
+.news_info  a  i{
+    font-size: 23px;
+    color: blue;
+    margin-left: 10px;
+}
+.news_info  span{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.news_info_title{
+    margin: 20px 0px;
+    text-transform: capitalize;
+    /* color: #a53434; */
+    color: rgb(20, 79, 188);
+}
+.news_info_prg{
+    margin: 20px 0px;
+    color: rgb(155, 145, 145);
+    text-transform: lowercase;
+}
+.news_link{
+    color: rgb(45, 45, 215);
+    text-decoration: none;
+}
+.news_img{
+    position: relative;
+}
+.news_img:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(108, 181, 233, 0.5);
+    transition: 1S;
+    z-index: -1;
+    border-radius: 25PX;
+}
+.news_img:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 25PX;
+}
+
+
+
+.d1{
+    position: relative;
+}
+.d1:after{
+    content:"" ;
+    position: absolute;
+    width:0 ;
+    height:0 ;
+    top: 0;
+    left: 0;
+    transition: 1S;
+    background-color: rgba(108, 181, 233, 0.5);
+    border-radius:25PX;
+}
+.d1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 25PX;
+}
+.d2{
+    position: relative;
+}
+.d2:after{
+    content:"" ;
+    position: absolute;
+    width:0 ;
+    height:0 ;
+    top: 0;
+    left: 0;
+    transition: 1S;
+    background-color: rgba(108, 181, 233, 0.5);
+    border-radius:25PX;
+}
+.d2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 25PX;
+}
+.d3{
+    position: relative;
+}
+.d3:after{
+    content:"" ;
+    position: absolute;
+    width:0 ;
+    height:0 ;
+    top: 0;
+    left: 0;
+    transition: 1S;
+    background-color: rgba(108, 181, 233, 0.5);
+    border-radius:25PX;
+}
+.d3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 25PX;
+}
+
+
+.sheet1_div{
+    position: relative;
+}
+.sheet1_div::after{
+    content:"" ;
+    position: absolute;
+    width:0 ;
+    height:0 ;
+    top: 0;
+    left: 0;
+    transition: 1S;
+    background-color: rgba(108, 181, 233, 0.5) ;
+    border-radius:15PX;
+}
+.sheet1_div:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 15PX;
+}
+.part2_div{
+    position: relative;
+}
+.part2_div::after{
+    content:"" ;
+    position: absolute;
+    width:0 ;
+    height:0 ;
+    top: 0;
+    left: 0;
+    transition: 1S;
+    background-color: rgba(108, 181, 233, 0.5);
+    border-radius:15PX;
+}
+.part2_div:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 15PX;
+}
+.headear_list li  a{
+    position: relative;
+}
+.headear_list  li  a::after{
+    content:"" ;
+    position: absolute;
+    width:0 ;
+    height:3px ;
+    bottom: -10;
+    left: 0;
+    transition: 1S;
+    background-color: #fff;
+}
+.headear_list  li  a:hover::after{
+    width: 100%;
+    height: 3px;
+}
+.parent_finally{
+    width: 100%;
+    height: 420px;
+    background-color: rgba(108, 181, 233, 0.5);
+    margin-top: 600px;
+    text-align: center;
+}
+.img_finally{
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.link_finally a i{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(65, 65, 240);
+}
+.p_finally{
+    margin-top: 10px;
+    color: #000000;
+}
